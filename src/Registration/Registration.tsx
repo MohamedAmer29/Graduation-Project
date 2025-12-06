@@ -9,10 +9,13 @@ const Registration = () => {
   return (
     <div className="mt-8 max-md:w-11/12 md:w-3/4  m-auto flex-col flex   justify-center">
       <div className="md:ml-24 max-md:ml-20 translate-y-12">
-        <p className="flex gap-2 text-gray-700  text-md font-semibold cursor-pointer hover:text-gray-900 ">
+        <NavLink
+          to={"/"}
+          className="flex gap-2 w-fit text-gray-700  text-md font-semibold cursor-pointer hover:text-gray-900 "
+        >
           <GoArrowLeft className="translate-y-1 text-xl font-extrabold font-sans text-gray-600" />
           Back to Home
-        </p>
+        </NavLink>
       </div>
 
       <div className="m-16 bg-gray-50 p-6 rounded-2xl shadow-sm">
@@ -30,7 +33,7 @@ const Registration = () => {
             Choose your role and fill in your information
           </p>
         </div>
-        <div className="flex justify-between bg-gray-200 rounded-full h-10 items-center my-4 gap-4">
+        <div className="flex justify-between bg-gray-200 rounded-full h-10 items-center my-4 gap-4 registerNavigation">
           <NavLink
             to="/registration/patient-registration"
             className={"flex gap-2 text-gray-500 flex-1  h-full items-center"}

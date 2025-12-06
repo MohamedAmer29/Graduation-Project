@@ -132,10 +132,11 @@
     @apply flex-1;
   }
 }
-
-a.active {
-  @apply flex gap-2 text-gray-800 flex-1 h-full justify-center rounded-full font-bold items-center bg-gray-300 px-8;
-}
-a {
-  @apply flex justify-center;
+.registerNavigation {
+  a.active {
+    @apply flex gap-2 text-gray-800 flex-1 h-full justify-center rounded-full font-bold items-center bg-gray-300 px-8;
+  }
+  a {
+    @apply flex justify-center;
+  }
 }
