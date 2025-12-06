@@ -9,7 +9,7 @@ const Registration = () => {
   return (
     <div className="mt-8 max-md:w-11/12 md:w-3/4  m-auto flex-col flex   justify-center">
       <div className="md:ml-24 max-md:ml-20 translate-y-12">
-        <p className="flex gap-2 text-gray-900  text-lg">
+        <p className="flex gap-2 text-gray-700  text-md font-semibold cursor-pointer hover:text-gray-900 ">
           <GoArrowLeft className="translate-y-1 text-xl font-extrabold font-sans text-gray-600" />
           Back to Home
         </p>
