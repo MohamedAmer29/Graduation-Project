@@ -1,5 +1,5 @@
 import Doctors from "./Doctors";
-import doctorImage from "../assets/doctor.jpg";
+import doctorImage from "./../../assets/doctor.jpg";
 const FeaturedDoctors = () => {
   return (
     <div className="bg-gray-300 p-4 mt-6 rounded-xl">

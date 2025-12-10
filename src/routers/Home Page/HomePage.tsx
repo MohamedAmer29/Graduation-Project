@@ -1,7 +1,7 @@
 import MainNavBar from "@/components/Navigation bars/MainNavBar";
 import PatientNav from "@/components/Navigation bars/Side Navigation/PatientNav";
 
-import LandingScape from "@/HomePage/LandingScape";
+import LandingScape from "@/components/HomePage/LandingScape";
 import { Outlet } from "react-router";
 
 const HomePage = () => {

@@ -5,7 +5,7 @@ import PatientRegistration from "./components/Registration/PatientRegistration";
 import DoctorRegistration from "./components/Registration/DoctorRegistration";
 import StudentRegistration from "./components/Registration/StudentRegistration";
 import ReceptionistRegistration from "./components/Registration/ReceptionistRegistration";
-import BrowseDoctors from "./HomePage/BrowseDoctors";
+import BrowseDoctors from "./components/HomePage/BrowseDoctors";
 
 const App = () => {
   const isRegister = true;
