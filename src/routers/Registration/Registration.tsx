@@ -1,4 +1,4 @@
-import logo from "./../assets/logo.png";
+import logo from "./../../assets/logo.png";
 import { GoArrowLeft } from "react-icons/go";
 import { NavLink, Outlet } from "react-router";
 import { AiOutlineUser } from "react-icons/ai";
@@ -33,7 +33,7 @@ const Registration = () => {
             Choose your role and fill in your information
           </p>
         </div>
-        <div className="flex justify-between bg-gray-200 rounded-full h-10 items-center my-4 gap-4 registerNavigation">
+        <div className="flex justify-between bg-gray-200 rounded-full h-10 items-center my-4 gap-4 registerNavigation max-lg:gap-2 ">
           <NavLink
             to="/registration/patient-registration"
             className={"flex gap-2 text-gray-500 flex-1  h-full items-center"}

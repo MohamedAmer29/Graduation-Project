@@ -126,7 +126,10 @@
     @apply bg-gray-200 placeholder:text-gray-500 placeholder:text-sm placeholder:font-sans rounded-md p-2 focus:outline-3 focus:outline-gray-400 outline-offset-2;
   }
   #name {
-    @apply flex flex-row gap-20 max-sm:flex-col max-sm:gap-2;
+    @apply flex flex-row gap-20 max-sm:flex-col max-sm:gap-2 max-md:flex-col max-md:gap-1 max-lg:gap-8;
+    input {
+      @apply max-lg:w-full;
+    }
   }
   #name div {
     @apply flex-1;
@@ -134,9 +137,47 @@
 }
 .registerNavigation {
   a.active {
-    @apply flex gap-2 text-gray-800 flex-1 h-full justify-center rounded-full font-bold items-center bg-gray-300 px-8;
+    @apply flex gap-2 text-gray-800 flex-1 h-full justify-center rounded-full font-bold items-center bg-gray-300 px-8 max-lg:px-4;
   }
   a {
     @apply flex justify-center;
+  }
+}
+
+.landingScape {
+  background-image: url("./assets/landingScapeImage.jpg");
+  @apply shadow-2xs shadow-gray-700;
+}
+
+.filter {
+  background-image: url("./assets/filterImage.png");
+  background-size: 100% 100%;
+  @apply h-[40vh] max-[1050px]:h-[50vh]  flex flex-col  justify-center p-10 gap-8 mb-6 rounded-xl;
+}
+.filterPreview {
+  div {
+    @apply flex gap-2 first:bg-blue-400 text-gray-600 first:text-white rounded-lg p-4 py-2 border-gray-700 border-2 cursor-pointer active:bg-blue-500;
+    svg {
+      @apply translate-y-1;
+    }
+  }
+}
+
+.nav {
+  @apply p-2 fixed w-1/6;
+  ul {
+    @apply flex flex-col gap-8 text-lg justify-center  w-full;
+    li {
+      @apply flex gap-2 justify-center [1200px]:justify-normal border-b-2 border-gray-400 py-3 border-dashed;
+      a {
+        @apply flex gap-2;
+        svg {
+          @apply translate-y-1 text-2xl text-blue-700;
+        }
+        span {
+          @apply max-[1200px]:hidden;
+        }
+      }
+    }
   }
 }
