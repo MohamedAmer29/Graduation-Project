@@ -6,6 +6,7 @@ import DoctorRegistration from "./components/Registration/DoctorRegistration";
 import StudentRegistration from "./components/Registration/StudentRegistration";
 import ReceptionistRegistration from "./components/Registration/ReceptionistRegistration";
 import BrowseDoctors from "./components/HomePage/BrowseDoctors";
+import PatientDashboard from "./components/Patient/Dashboard/PatientDashboard";
 
 const App = () => {
   const isRegister = true;
@@ -13,6 +14,7 @@ const App = () => {
     <div className={!isRegister ? "w-11/12" : "w-[95%] m-auto"}>
       <Routes>
         <Route path="/" element={<HomePage />}>
+          <Route index element={<PatientDashboard />} />
           <Route path="/browse-doctors" element={<BrowseDoctors />} />
         </Route>
         <Route path="/registration" element={<Registration />}>

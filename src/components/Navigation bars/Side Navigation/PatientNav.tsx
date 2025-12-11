@@ -22,7 +22,7 @@ const PatientNav = () => {
       </div>
       <ul>
         <li>
-          <NavLink to={"#"}>
+          <NavLink to={"/"}>
             <TbLayoutDashboardFilled />
             <span>Dashboard</span>
           </NavLink>
