@@ -153,13 +153,13 @@ User ← Frontend ← Backend ← AI Results & Confidence Scores
 
 | Name                    |
 | ----------------------- |
+| Mohamed Gamal Emara     |
 | Zaid Ibrahim Saleh      |
 | Ziad Yasser Abtelmaget  |
 | Kerolos Soliman Helmy   |
 | Mohamed Ahmed Amer      |
 | Yousef Khaled El Shahat |
 | Yousef Abdallah Orabi   |
-| Mohamed Gamal           |
 
 **Under Supervision of:**
 Dr. Ahmed Yousry
